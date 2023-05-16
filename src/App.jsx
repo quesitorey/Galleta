@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import "./src/phrases.json"
+import "/src/phrases.json"
 function App() {
 
   const [ index, setIndex ] = useState(0)
@@ -44,8 +44,8 @@ function App() {
     <>
       <div className="background" style = {backStyle}>
       <div className='box'>
-        <h1 className='phrase'>{phrase.phrase}</h1>
-        <h1 className='author'>{phrase.author}</h1>
+        <p className='phrase'>{phrase.phrase}</p>
+        <p className='author'>{phrase.author}</p>
       </div>
       <button
       onClick={() => {changeIndex(), getPhrase()}}
