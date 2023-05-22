@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import dataa from "/src/phrases.json"
+import dataa from "/phrases.json"
 function App() {
 
   const [ index, setIndex ] = useState(0)
